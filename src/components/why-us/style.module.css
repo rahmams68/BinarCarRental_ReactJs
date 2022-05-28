@@ -1,0 +1,65 @@
+.container {
+    background-color: white;
+    padding: 0 136px;
+}
+
+.info h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.info p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.reasons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.reason {
+    border: 1px solid #e5e5e5;
+    border-radius: 7px;
+    width: 23%;
+    padding: 20px;
+    margin: auto 0;
+}
+
+.reason h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.reason p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+@media (max-width: 768px) {
+    .why-info h2 {
+        text-align: center;
+    }
+    
+    .why-info p {
+        text-align: center;
+    }
+    
+    .reasons {
+        flex-direction: column;
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+    .reason {
+        width: 100%;
+        padding: 20px;
+        margin: 10px 0;
+    }
+}

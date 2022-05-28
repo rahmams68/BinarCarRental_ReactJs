@@ -1,0 +1,13 @@
+header {
+    background-color: #F1F3FF;
+}
+
+.resultContainer {
+    padding: 25px 136px;
+    margin: 100px 0;
+}
+
+.displayCars {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

@@ -1,0 +1,40 @@
+.container {
+    min-width: 619px;
+    height: 270px;
+    background-color: #F1F3FF;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 70px 46px;
+    margin: 0 32px;
+}
+
+.left {
+    align-self: center;
+    padding-right: 46px;
+}
+
+.left img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.right {
+    text-align: left;
+    margin-top: -12px;
+}
+
+.right p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 12px;
+}
+
+.right h4 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}

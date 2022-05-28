@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 136px;
+    margin-bottom: 100px;
+}
+
+.contact {
+    width: 30%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.connect {
+    width: 20%;
+}
+
+.copyright {
+    width: 20%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 16px;
+        margin-bottom: 100px;
+    }
+    
+    .contact {
+        width: 100%;
+    }
+    
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .menu a {
+        color: black;
+        text-decoration: none;
+        margin-bottom: 15px;
+    }
+    
+    .connect {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .connect .connectIcons {
+        display: flex;
+
+    }
+
+    .connect .connectIcons img {
+        margin-right: 15px;
+    }
+    
+    .copyright {
+        width: 100%;
+    }
+}

@@ -1,0 +1,56 @@
+form .filterBox {
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+    box-shadow: 0px 0px 5px rgb(192, 192, 192);
+    font-size: 14px;
+
+    position: absolute;
+    top: 470px;
+    left: 12%;
+    right: 12%;
+}
+
+form .filterBox .inputBox {
+    width: 20%;
+}
+
+form .filterBox .inputBox select {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+form .filterBox .inputBox input {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+form .filterBox .inputBox p {
+    line-height: 5px;
+}
+
+form .filterBox .btnFilter button {
+    background-color: #5cb85f;
+    color: #fff;
+    padding: 5px 15px;
+    border: none;
+    font-size: 14px;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+form .filterBox .btnFilter button:hover {
+    background-color: #469348;
+}
+
+.displayCars {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

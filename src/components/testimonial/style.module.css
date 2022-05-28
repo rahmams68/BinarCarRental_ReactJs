@@ -1,0 +1,30 @@
+.container {
+    background-color: white;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.info h2 {
+    font-weight: bold;
+}
+
+.reviews {
+    display: flex;
+    margin: 50px 0;
+
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: center;
+}
+
+.btnReview img {
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 16px;
+    }
+}
